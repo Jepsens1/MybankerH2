@@ -4,7 +4,7 @@ using System.Text;
 
 namespace MybankerH2
 {
-    class Card
+    public abstract class Card
     {
         public string CardName { get; protected set; }
         public string CardNumber { get; protected set; }
